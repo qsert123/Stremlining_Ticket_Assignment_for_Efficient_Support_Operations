@@ -3,7 +3,7 @@
 # 💼 Streamlining Ticket Assignment for Efficient Support Operations  
 ### *A SmartInternz Project using ServiceNow Automation for Naan Mudhalvan*
 
-![Naan Mudhalvan Logo](https://brandfetch.com/naanmudhalvanmentors.com/logo.png)
+
 <img src="https://brandfetch.com/naanmudhalvanmentors.com/logo.png" alt="Naan Mudhalvan Logo" width="200">
 
 </div>
