@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://i.imgur.com/3znJbJ1.png" alt="Naan Mudhalvan Logo" width="200"/>
-<img src="https://i.imgur.com/JB3mbzK.png" alt="SmartInternz Logo" width="200"/>
 
 # 💼 Streamlining Ticket Assignment for Efficient Support Operations
 ### *A SmartInternz – Naan Mudhalvan Project using ServiceNow Automation*
