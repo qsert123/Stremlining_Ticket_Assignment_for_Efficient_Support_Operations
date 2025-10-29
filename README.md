@@ -83,6 +83,15 @@ By leveraging **ServiceNow Flow Designer**, this system automatically assigns ti
 This project successfully demonstrates how ServiceNow can be used to streamline IT service management by automating ticket assignment. It ensures that tickets are routed to the correct teams instantly, improving efficiency, reducing delays, and enhancing overall user satisfaction.
 
 ---
+## 🎬 Demo Video
+
+[Watch the project demonstration on YouTube](https://youtu.be/E76GQyMrOo8)
+
+<details>
+  <summary>Click to preview</summary>
+  
+  [![Watch the video](https://img.youtube.com/vi/E76GQyMrOo8/0.jpg)](https://youtu.be/E76GQyMrOo8)
+</details>
 
 <div align="center">
 
