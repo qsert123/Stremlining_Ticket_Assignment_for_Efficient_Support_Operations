@@ -1,5 +1,6 @@
 <div align="center">
 
+<img data-v-53ccff19="" src="/_nuxt/img/logo.cda70ae.svg" alt="" class="h-14 min-w-[1rem] object-contain">
 
 # 💼 Streamlining Ticket Assignment for Efficient Support Operations
 ### *A SmartInternz – Naan Mudhalvan Project using ServiceNow Automation*
