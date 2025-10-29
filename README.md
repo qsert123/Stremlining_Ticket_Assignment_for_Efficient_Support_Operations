@@ -4,7 +4,8 @@
 ### *A SmartInternz Project using ServiceNow Automation for Naan Mudhalvan*
 
 
-<img src="https://brandfetch.com/naanmudhalvanmentors.com/logo.png" alt="Naan Mudhalvan Logo" width="200">
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f3/Naan_Mudhalvan_logo.png" alt="Naan Mudhalvan Logo" width="200">
+
 
 </div>
 
