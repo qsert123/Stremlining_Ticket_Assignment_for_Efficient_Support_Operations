@@ -3,7 +3,8 @@
 # 💼 Streamlining Ticket Assignment for Efficient Support Operations  
 ### *A SmartInternz Project using ServiceNow Automation for Naan Mudhalvan*
 
-<img src="http://popularschemes.com/sites/default/files/2024-07/Tamil%20Nadu%20Naan%20Mudhalvan%20UPSC%20Mains%20Scholarship%20Programme%20Logo.png" alt="Naan Mudhalvan Logo" width="100">
+![Naan Mudhalvan Logo](https://brandfetch.com/naanmudhalvanmentors.com/logo.png)
+<img src="https://brandfetch.com/naanmudhalvanmentors.com/logo.png" alt="Naan Mudhalvan Logo" width="200">
 
 </div>
 
