@@ -1,88 +1,93 @@
 <div align="center">
 
-# 💼 Streamlining Ticket Assignment for Efficient Support Operations  
-### *A SmartInternz Project using ServiceNow Automation for Naan Mudhalvan*
+<img src="https://i.imgur.com/3znJbJ1.png" alt="Naan Mudhalvan Logo" width="200"/>
+<img src="https://i.imgur.com/JB3mbzK.png" alt="SmartInternz Logo" width="200"/>
 
-<img src="https://i.imgur.com/3znJbJ1.png" alt="Naan Mudhalvan Logo" width="180"/>
-<img src="https://i.imgur.com/JB3mbzK.png" alt="SmartInternz Logo" width="180"/> 
-
+# 💼 Streamlining Ticket Assignment for Efficient Support Operations
+### *A SmartInternz – Naan Mudhalvan Project using ServiceNow Automation*
 
 </div>
 
 ---
 
-## 🧭 About the Project
-
-This project focuses on **automating the ticket assignment process** within the ServiceNow platform.  
-By leveraging **ServiceNow Flow Designer**, **custom tables**, and **role-based access**, the system intelligently assigns tickets to the appropriate support groups automatically.  
-
-The goal is to eliminate manual ticket routing, reduce human errors, and enhance support efficiency in IT operations.
+## 📖 Project Overview
+This project focuses on automating **ticket assignment in ServiceNow** to improve support efficiency and reduce manual intervention.  
+When a user submits a ticket (such as login issues, certificate problems, or system errors), it is automatically routed to the correct support group — ensuring faster resolution and improved productivity.
 
 ---
 
-## 🎯 Objectives
-
-- Automate ticket routing and assignment.  
-- Minimize human intervention in support operations.  
-- Improve ticket response and resolution times.  
-- Ensure clear team-level responsibility via roles and groups.  
-
----
-
-## ⚙️ Tech Stack
-
-| Technology | Purpose |
-|-------------|----------|
-| 🧩 **ServiceNow** | Ticket management and workflow automation |
-| 💾 **GitHub** | Version control and documentation |
+## 🧩 Objective
+To build a **ServiceNow-based automated ticket routing system** that:
+- Reduces delays in ticket handling  
+- Ensures accurate routing to the right team  
+- Enhances operational efficiency  
+- Improves customer satisfaction  
 
 ---
 
-## 🪜 Implementation Steps
+## ⚙️ Implementation Steps
 
-### 🔹 Step 1: Create Users  
-Navigate to **System Security → Users** and create new users (e.g., agents, admins).
+### 1. Create Users  
+- Navigate to **All → Users → New**  
+- Add new users (e.g., Katherine Pierce, Manne Niranjan) and submit  
 
-### 🔹 Step 2: Create Groups  
-Go to **User Administration → Groups** and create groups such as:
-- **Platform Team**
-- **Certificates Team**
+### 2. Create Groups  
+- Navigate to **All → Groups → New**  
+- Create groups like `Platform` and `Certificates`
 
-### 🔹 Step 3: Assign Roles  
-Create custom roles for each group (e.g., `platform_admin`, `cert_team_user`) and assign them to respective users.
+### 3. Create Roles  
+- Navigate to **All → Roles → New**  
+- Create roles `Platform_Role` and `Certificate_Role`
 
-### 🔹 Step 4: Create a Custom Table  
-Create a new table named **Operations Related** with fields:
-- `Issue`
-- `Priority`
-- `Assigned Group`
-- `Short Description`
+### 4. Create Table  
+- Go to **System Definition → Tables → New**  
+- Label: `Operations Related`  
+- Check **Create Module** and **Create Mobile Module**  
+- Add fields like *Issue, Description, Assigned Group*  
 
-### 🔹 Step 5: Configure Access Controls (ACLs)  
-Grant permission to relevant groups and restrict unauthorized access.
+### 5. Assign Users & Roles to Groups  
+- Add users and their respective roles under each group  
 
-### 🔹 Step 6: Build an Automated Flow  
-Using **Flow Designer**, create a flow to:
-- Trigger when a new record is inserted in *Operations Related*.  
-- Check the “Issue” field.  
-- Automatically assign the ticket to the correct group (e.g., *Certificates Team* or *Platform Team*).  
+### 6. Set Access Controls (ACLs)  
+- Go to **System Security → Access Control (ACL)**  
+- Restrict access to authorized roles only  
 
-### 🔹 Step 7: Test and Validate  
-Submit multiple tickets with different issue types and verify automatic group assignment.
+### 7. Create Flows in Flow Designer  
+- Use **Flow Designer** to automate ticket assignment:  
+  - If Issue = *Regarding Certificates* → Assign to `Certificates` Group  
+  - If Issue = *Login / 404 / Expired* → Assign to `Platform` Group  
 
 ---
 
-## 🧩 System Workflow
+## 🧠 Outcome
+By leveraging **ServiceNow Flow Designer**, this system automatically assigns tickets to the appropriate support team, significantly reducing response time and manual workload.
 
-```text
-User Creates a Ticket
-        ↓
-ServiceNow Table (Operations Related)
-        ↓
-Flow Designer Trigger
-        ↓
-Auto-Assign to Relevant Group
-        ↓
-Ticket Visible to Group Members
-        ↓
-Faster Resolution & Improved Efficiency
+---
+
+## 📸 Screenshots
+*(Add your ServiceNow screenshots here)*  
+- User Creation  
+- Group Creation  
+- Flow Setup  
+- Auto Assignment Output  
+
+---
+
+## 🧑‍💻 Team Members
+- **Arshekh John JD**  
+- **Altan**  
+- **Akash**  
+- **Arshana**
+
+---
+
+## 🏁 Conclusion
+This project successfully demonstrates how ServiceNow can be used to streamline IT service management by automating ticket assignment. It ensures that tickets are routed to the correct teams instantly, improving efficiency, reducing delays, and enhancing overall user satisfaction.
+
+---
+
+<div align="center">
+
+✨ *Developed under the Naan Mudhalvan – SmartInternz Program using ServiceNow* ✨  
+
+</div>
