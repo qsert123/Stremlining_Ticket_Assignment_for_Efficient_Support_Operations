@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://naanmudhalvan.tn.gov.in/_nuxt/img/logo.cda70ae.svg" alt="Naan Mudhalvan Logo" width="200">
 
 # 💼 Streamlining Ticket Assignment for Efficient Support Operations
 ### *A SmartInternz – Naan Mudhalvan Project using ServiceNow Automation*
